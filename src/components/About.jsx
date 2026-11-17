@@ -35,8 +35,8 @@ export default function About() {
             <a href="#contact" className="btn btn-primary">
               <FiMail /> Let&apos;s Talk
             </a>
-            <a href="#documents" className="btn btn-outline">
-              My Certificates
+            <a href="#projects" className="btn btn-outline">
+              View My Projects
             </a>
           </div>
         </Reveal>

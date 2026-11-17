@@ -4,7 +4,9 @@ import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
-import Documents from './components/Documents.jsx';
+// Documents section hidden for now. To restore: uncomment this import, add <Documents /> after <Projects />,
+// and add { id: 'documents', label: 'Documents' } back to navLinks in data/portfolio.js.
+// import Documents from './components/Documents.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import BackToTop from './components/BackToTop.jsx';
@@ -20,7 +22,6 @@ export default function App() {
         <Services />
         <Skills />
         <Projects />
-        <Documents />
         <Contact />
       </main>
       <Footer />
